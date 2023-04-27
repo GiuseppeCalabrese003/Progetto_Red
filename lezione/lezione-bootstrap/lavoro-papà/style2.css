@@ -1,0 +1,70 @@
+.immagine-pagina{
+    height: 200px;
+    width: 200px;
+}
+.foto-castelnuovo-scritta{
+    margin-top: 20vh;
+}
+.prima-pagina-sfondo{
+    background-image: url(https://www.calabresedistribuzione.com/wp-content/uploads/2020/03/bar-beer.jpg);
+    height: 968px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+}
+
+.nav-item{
+    font-size: large;
+}
+.item-pagina{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.scritta-principale{
+    font-size: 30px;
+    margin-top: 30px;    
+}
+.margine-foto{
+    margin-top: 200px;
+}
+.scritta-prima-pagina{
+    font-weight: bold;
+}
+.immagine-spillatura{
+    display: flex;
+    margin-left: 0px;
+    height: 100vh;
+    width: 170vh;
+    margin-top: 0px;
+    border-radius: 10%;
+    padding: 0px;
+}
+.seconda-pagina{
+    display: flex;
+    background-image: url(https://www.innaturale.com/wp-content/uploads/2018/04/Guida-agli-stili-per-spillare-la-birra.jpg);
+    height: 100vh;
+    width: 170vh;
+    flex-direction: column;
+    border-color: bisque;
+    margin-top: 0px;
+    border-radius: 10%;
+    padding: 0px;
+    margin-left: 0px;
+    background-repeat: no-repeat;
+
+}
+.testo-della-foto-spillatura{
+    width: 300px;
+
+}
+.testo-spillatura{
+    font-size: 20px;
+}
+.birra-e-non-solo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 100px;
+}

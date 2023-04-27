@@ -1,0 +1,56 @@
+.barra-navigazione{
+    background-color: yellowgreen;
+    height: 100px;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    gap: 20px;
+}
+.elementi-navbar a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    
+}
+.pagina-principale{
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.container-articoli{
+    background-image: url(https://th.bing.com/th/id/R.b81465101f46bbeeb1fcd95e863bdb8c?rik=jLbvxU4vtaLvaQ&pid=ImgRaw&r=0);
+    
+    background-size: cover;
+    height: 150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+p{
+    font-size: 10px;
+    color: antiquewhite;
+}
+h2{
+    font: italic;
+    color: wheat;
+}
+.sotto-sito{
+    background-color: chartreuse;
+    height: 30vh;
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+@media screen and (min-width:768px) {
+    .container-articoli{
+        width: 100%;
+        flex-direction: row;
+    }
+    .elementi-navbar a{
+        width: 100%;
+        flex-direction: column;
+    }
+}

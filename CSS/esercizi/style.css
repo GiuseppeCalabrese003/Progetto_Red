@@ -1,0 +1,73 @@
+.navbar{
+    background-image: url(https://th.bing.com/th/id/R.cc93abda6407a014205d4399cbeef1ec?rik=%2fqeD7329Vfk4tQ&riu=http%3a%2f%2fmouseinmypocket.com%2fwp-content%2fuploads%2f2014%2f03%2ftech-advances-dance-music.jpg&ehk=xBgL2FKWUdIvtSU0g2utErY8igAEpfGMGpx%2fCTeKJdg%3d&risl=&pid=ImgRaw&r=0);
+    height: 100px;
+}
+.container{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.container-chisiamo{
+    margin-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.container-home{
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.container-prodotti{
+    padding-top: 10px;
+}
+.container-chisiamo a{
+    color: white;
+}
+.container-home a{
+    color: white;
+}
+.container-prodotti a{
+    color: white;
+}
+.pagina-iniziale{
+    
+    background-image: url(https://th.bing.com/th/id/OIP.BDCiY1AuRKnFlAlswxKYLgHaEK?w=254&h=183&c=7&r=0&o=5&pid=1.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+   margin-top: 0px;
+    height: 100vh;
+    
+}
+.titolo-pagina{
+    color: bisque;
+    font-size: 60px;
+    font: bolder;
+    text-align: center;
+}
+.capitoli-pagina{
+    color: antiquewhite;
+    font-size: 30px;
+    padding-left: 15px;
+}
+p:hover{
+    background-color: yellow;
+}
+.bottone-prodotti{
+    align-items: center;
+}
+.articoli-tech{
+    display: flex;
+    flex-direction: row;
+    color: green;
+}
+.fine-pagina{
+    background-image: url(https://th.bing.com/th/id/R.cc93abda6407a014205d4399cbeef1ec?rik=%2fqeD7329Vfk4tQ&riu=http%3a%2f%2fmouseinmypocket.com%2fwp-content%2fuploads%2f2014%2f03%2ftech-advances-dance-music.jpg&ehk=xBgL2FKWUdIvtSU0g2utErY8igAEpfGMGpx%2fCTeKJdg%3d&risl=&pid=ImgRaw&r=0);
+    height: 100px;
+    margin-top: 20px;
+}
+.contatti-cliente{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
